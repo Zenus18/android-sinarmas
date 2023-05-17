@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scrollbars="none"
+        android:layout_marginTop="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reguler"
+                android:text="Aplikasi Let's Movie adalah aplikasi yang menggunakan basis data The Movie Database (TMDB) untuk menampilkan trailer film-film terbaru. Aplikasi ini dibuat untuk memudahkan pengguna dalam menemukan trailer film yang sedang populer atau film-film yang akan datang yang diantisipasi." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reguler"
+                android:text="Fitur-fitur pada Aplikasi Let's Movie:"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/primary_color"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trailer Film Terbaru"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_reguler"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reguler"
+                android:text="Aplikasi ini menampilkan trailer film-film terbaru yang dirilis. Dengan menggunakan basis data TMDB, aplikasi ini dapat menampilkan trailer film yang sedang populer." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reguler"
+                android:text="Film-film yang Akan Datang"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reguler"
+                android:text="Aplikasi ini juga menampilkan film-film yang akan datang yang diantisipasi oleh para penggemar film. Dengan informasi yang diperoleh dari TMDB, aplikasi ini dapat memberikan pengguna informasi tentang tanggal rilis film, sinopsis, serta pemeran dan kru yang terlibat dalam pembuatan film." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pencarian Film"
+                android:fontFamily="@font/poppins_reguler"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_reguler"
+                android:text="Aplikasi ini menyediakan fitur pencarian film. Pengguna dapat mencari film-film yang diinginkan berdasarkan judul atau kata kunci tertentu. Informasi yang diperoleh dari TMDB seperti tanggal rilis, rating, serta ulasan dari pengguna lain"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

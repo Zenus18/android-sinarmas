@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:visibility="visible"
+    tools:context=".register_activity"
+    tools:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="70dp">
+
+        <ImageView
+            android:id="@+id/register_image"
+            android:layout_width="300dp"
+            android:layout_height="175dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/undraw_online_ad_re_ol62"></ImageView>
+
+        <LinearLayout
+            android:id="@+id/login_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register_image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:baselineAligned="false"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Register"
+                android:textSize="26sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#33000000"
+                android:hint="Nama Lengkap"
+                app:boxBackgroundColor="@android:color/transparent"
+                app:boxStrokeColor="@color/primary_color"
+                app:boxStrokeWidth="2dp"
+                app:startIconDrawable="@drawable/ic_baseline_person_24"
+                app:startIconTint="#63F8FF">>
+
+                <EditText
+                    android:id="@+id/txt_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_reguler"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#33000000"
+                android:hint="Email"
+                app:boxBackgroundColor="@android:color/transparent"
+                app:boxStrokeColor="@color/primary_color"
+                app:boxStrokeWidth="2dp"
+                app:startIconDrawable="@drawable/ic_baseline_alternate_email_24"
+                app:startIconTint="#63F8FF">>
+
+                <EditText
+                    android:id="@+id/txt_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_reguler"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#33000000"
+                android:hint="Password"
+                app:boxBackgroundColor="@android:color/transparent"
+                app:boxStrokeColor="@color/primary_color"
+                app:boxStrokeWidth="2dp"
+                app:passwordToggleEnabled="true"
+                app:startIconDrawable="@drawable/ic_baseline_lock_24"
+                app:startIconTint="#63F8FF">>
+
+                <EditText
+                    android:id="@+id/txt_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_reguler"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#33000000"
+                android:hint="Password Confirmation"
+                app:boxBackgroundColor="@android:color/transparent"
+                app:boxStrokeColor="@color/primary_color"
+                app:boxStrokeWidth="2dp"
+                app:passwordToggleEnabled="true"
+                app:startIconDrawable="@drawable/ic_baseline_lock_24"
+                app:startIconTint="#63F8FF">>
+
+                <EditText
+                    android:id="@+id/txt_confirmPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_reguler"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/hover_register"
+                android:maxLines="1"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="50dp"
+                android:text="Register"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/poppins_reguler"
+                android:text="or"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_SignIn_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:clickable="true"
+                android:fontFamily="@font/poppins_reguler"
+                android:text="Already have account? Sign in now"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

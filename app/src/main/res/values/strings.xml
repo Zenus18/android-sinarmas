@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Let\'s Movie</string>
+    <string name="welcome_Introduction"> Halo semuanya!! bosen ngak si meng-gabut di rumah terus. Dari pada bosen, mending nonton, yuk!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="options_array">
+        <item>Movies</item>
+        <item>Series</item>
+        <item>Cinema</item>
+    </string-array>
+    <string name="select_option">Pilih salah satu</string>
+    <string-array name="filter">
+        <item>Popular</item>
+        <item>Now Playing</item>
+        <item>Top Rated</item>
+        <item>Up Coming</item>
+    </string-array>
+</resources>

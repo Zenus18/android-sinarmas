@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "982128212640",
+    "project_id": "let-s-movie-c263d",
+    "storage_bucket": "let-s-movie-c263d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982128212640:android:a9e3e12bdbb018bf44e7c5",
+        "android_client_info": {
+          "package_name": "com.example.letsmovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982128212640-7egqccons58nq36sgv8mi84mrpf3t7rb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.letsmovie",
+            "certificate_hash": "385e2edd05ed79790448616ff526a2fc585b6573"
+          }
+        },
+        {
+          "client_id": "982128212640-0tt6l58ihgm84rtbjrver1jqhmjcg70s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt4xm4Dv4ZCaNKsJPmtBvUebaZY755hpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982128212640-0tt6l58ihgm84rtbjrver1jqhmjcg70s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
